@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
 
 /* 全体を囲うコンテナー */
-.container {
+.header {
   width: 100%;
   height: 100vh;
   background-color: #15151e;
@@ -98,4 +98,14 @@ width: 2px;
   top: calc(50% - 200px);
   left: calc(50% - 1px);
   transform-origin: bottom;
+}
+
+.register-box {
+   align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.output-flex {
+  display: inline-block;
 }

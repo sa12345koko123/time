@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
+  <div class="header">
     <div class="clock">
       <p class="clock-date"></p>
       <p class="clock-time"></p>
@@ -25,6 +25,24 @@
           <div class="time2"></div>
       </div>
     </div>
+  </div>
+  <div class="main">
+     <div class="register-box" id="js-add-form">
+      <input id="js-todo-ttl" type="text" placeholder="タイトル" maxlength="25">
+      <button id="js-register-btn">登録する</button>
+    </div>
+
+    <div class="output-flex">
+      <div class="todo-box">
+        <h2>ToDo</h2>
+        <ul class="box__list" id="js-todo-list"></ul>
+      </div>
+      <div class="done-box">
+        <h2>Done</h2>
+        <ul class="box__list" id="js-done-list"></ul>
+      </div>
+    </div>
+    <script src="todo.js"></script>
   </div>
 </body>
 </html>
