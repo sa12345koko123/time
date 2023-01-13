@@ -101,11 +101,17 @@ width: 2px;
 }
 
 .register-box {
-   align-items: center;
+  align-items: center;
   justify-content: center;
   text-align: center;
+   margin: 5% 0;
 }
 
 .output-flex {
-  display: inline-block;
+  /*overflow: hidden;*/
+  display: flex;
+  justify-content: space-evenly;
+  color: #FFFFFF;
+  background-color: #00CCFF;
+  margin: 5% 0;
 }
